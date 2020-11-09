@@ -8,15 +8,26 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~39.0.2",
+    "expo": "^39.0.4",
     "expo-status-bar": "~1.0.2",
+    "moment": "^2.22.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-button": "^2.3.0",
+    "react-native-elements": "^0.19.1"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
   },
   "private": true
 }
